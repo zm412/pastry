@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.header-inner {
+	height: 70px;
+	background: #241704;
+	box-sizing: border-box;
+	border-radius: 72px;
+    border: solid 1px #ec9301;
+	padding-inline: 32px;
+	display: grid;
+	gap: 32px;
+	grid-template-columns: 367px 1fr 250px;
+}
+
+.logo-img {
+	align-self: center;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-item {
+	display: flex;
+	align-items: center;
+}
+
+.nav-icon {
+	block-size: 17px;
+}
+
+.nav-menu-label {
+	font-weight: 700;
+	margin-inline-start: 8px;
+    color: #ec9301;
+}
+
+.nav-button {
+	inline-size: 121px;
+	block-size: 41px;
+	background: #01F0D0;
+	border-width: 0;
+	border-radius: 41px;
+}
+
+.profile-data {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.profile-img {
+	inline-size: 44px;
+	block-size: 44px;
+}
+
+.profile-owner {
+	font-weight: 700;
+}
+
+.settings-icon {
+	block-size: 20px;
+}
+

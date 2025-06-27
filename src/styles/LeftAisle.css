@@ -1,0 +1,26 @@
+.left-aisle {
+    border: solid 1px #c83164;
+    background: #25040f;
+}
+
+.project-list {
+	margin-block: 40px;
+	display: grid;
+}
+
+.project-card {
+	display: grid;
+	grid-template-columns: 48px 1fr 18px;
+	gap: 12px;
+	margin-block-end: 32px;
+}
+
+.project-info {
+	line-height: 1.8;
+}
+
+.project-name {
+	font-weight: 700;
+}
+
+

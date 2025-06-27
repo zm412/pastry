@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Manrope';
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding-block: 20px;
+	padding-inline: 20px;
+	font-size: 14px;
+	#background: #F6F7F8;
+    background: #232323;
+}
+
+.container {
+	margin-block: 0;
+	margin-inline: auto;
+	inline-size: 1600px;
+	padding-inline: 18px;
+}

@@ -1,0 +1,16 @@
+.main-block {
+	margin-block: 0;
+	margin-inline: auto;
+	padding-block: 32px;
+	padding-inline: 18px;
+	inline-size: 1600px;
+	display: grid;
+	gap: 32px;
+	grid-template-columns: 367px 767px 367px;
+}
+
+.main-grid-item {
+	padding: 20px;
+	border-radius: 16px;
+    color: #ffffff;
+}
