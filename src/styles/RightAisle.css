@@ -1,6 +1,6 @@
 .right-aisle {
-    border: solid 1px #9527de;
-    background: #14041f;
+    border: solid 1px var(--border-right);
+    background: var(--bg-right);
 }
 
 .person-icon-list,
@@ -21,10 +21,9 @@
 	block-size: 200px;
 	margin-block-start: 12px;
 	margin-block-end: 24px;
-    background: #2e094c;
+    background: var(--decor-right);
     border-radius: 50%;
-    border: solid 1px #9527de;
-    
+    border: solid 1px var(--border-right);
 }
 
 .person-name {

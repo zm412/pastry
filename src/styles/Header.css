@@ -2,10 +2,10 @@
 
 .header-inner {
 	height: 70px;
-	background: #241704;
+	background: var(--bg-header);
 	box-sizing: border-box;
 	border-radius: 72px;
-    border: solid 1px #ec9301;
+    border: solid 1px var(--border-header);
 	padding-inline: 32px;
 	display: grid;
 	gap: 32px;
@@ -16,7 +16,7 @@
 	align-self: center;
 }
 
-.nav {
+.custom-nav {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 }
@@ -33,7 +33,7 @@
 .nav-menu-label {
 	font-weight: 700;
 	margin-inline-start: 8px;
-    color: #ec9301;
+    color: var(--border-header);
 }
 
 .nav-button {

@@ -20,7 +20,7 @@ const project_list_data = [
 
 const ProjectList = () => {
     const projectList = project_list_data.map(project => 
-        <li className="project-card">
+        <li className="project-card" onClick={(e) => console.log(e)}>
             <div className="project-info">
                 <div className="project-name">{project.name}</div>
             </div>

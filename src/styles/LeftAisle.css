@@ -1,6 +1,6 @@
 .left-aisle {
-    border: solid 1px #c83164;
-    background: #25040f;
+    border: solid 1px var(--border-left);
+    background: var(--bg-left);
 }
 
 .project-list {

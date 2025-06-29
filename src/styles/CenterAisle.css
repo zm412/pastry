@@ -1,4 +1,4 @@
 .center-aisle{
-    border: solid 1px #14a199;
-    background: #032322;
+    border: solid 1px var(--border-center);
+    background: var(--bg-center);
 }

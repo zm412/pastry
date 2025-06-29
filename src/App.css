@@ -11,12 +11,97 @@ body {
 	padding-inline: 20px;
 	font-size: 14px;
 	#background: #F6F7F8;
-    background: #232323;
+    background: var(--bg);
 }
 
-.container {
+.custom-container {
 	margin-block: 0;
 	margin-inline: auto;
-	inline-size: 1600px;
+	max-width: 1600px;
 	padding-inline: 18px;
+}
+
+.acid-1-theme {
+    --bg: #232323;
+    --color: #ffffff;
+    --bg-left: #25040f;
+    --border-left: #c83164;
+    --bg-center: #032322;
+    --border-center: #14a199;
+    --bg-right: #14041f;
+    --border-right: #9527de;
+    --decor-right: #2e094c;
+    --bg-header: #241704;
+    --border-header: #ec9301;
+    --color-header: #ec9301;
+}
+
+.acid-2-theme {
+    --bg: #FBEEC1;
+    #--color: #00ffff;
+    #--color: #39ff14;
+    #--color: #ff00ff;
+    --color: #659DDB;
+    --bg-left: #DAAD86;
+    --border-left: #de91fb;
+    --bg-center: #BC986A;
+    --border-center: #14a199;
+    --bg-right: #FBEEC1;
+    --border-right: #DAAD86;
+    --decor-left: #2e094c;
+    #--bg-header: #8D8741;
+    --bg-header: #DAAD86;
+    --border-header: #ec9301;
+    --color-header: #ec9301;
+}
+
+.acid-3-theme {
+    --bg: #EDF5E1;
+    #--color: #00ffff;
+    #--color: #39ff14;
+    #--color: #ff00ff;
+    --color: #05386B;
+    --bg-left: #8EE4AF;
+    --border-left: #de91fb;
+    --bg-center: #BC986A;
+    --border-center: #14a199;
+    --bg-right: #FBEEC1;
+    --border-right: #DAAD86;
+    --decor-left: #2e094c;
+    #--bg-header: #8D8741;
+    --bg-header: #379683;
+    --border-header: #ec9301;
+    --color-header: #ec9301;
+}
+
+.lilac-theme {
+    --bg: #F6F7F8;
+    --color: #000000 ;
+    --bg-left: #F4F0FE;
+    --border-left: #FFFFFF;
+    --bg-center: #F4F0FE;
+    --border-center: #FFFFFF;
+    --bg-right: #F4F0FE;
+    --border-right: #FFFFFF;
+    --decor-right: #DCD0FF;
+    --bg-header: #DCD0FF;
+    --border-header: #FFFFFF;
+    --color-header: #000000;
+    --shadow: 1px 1px 2px rgb(147 102 233 / 50%);
+}
+
+.green-onion-theme {
+    --bg: #F6F7F8;
+    --color: #000000 ;
+    --bg-left: #95B9C7;
+    --border-left: #FFFFFF;
+    --bg-center: #C9DFEC;
+    --border-center: #FFFFFF;
+    --bg-right: #C9DFEC;
+    --border-right: #FFFFFF;
+    --decor-right: #6AA121;
+    --bg-header: #95B9C7;
+    --border-header: #FFFFFF;
+    --color-header: #000000;
+    --shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);;
 }

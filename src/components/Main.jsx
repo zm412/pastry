@@ -2,10 +2,11 @@ import ProjectList from "./leftAisle/ProjectList";
 import Project from "./centerAisle/Project";
 import PersonalInfo from "./rightAisle/PersonalInfo";
 import '../styles/Main.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Main = () => {
   return (
-        <div className="container main-block">
+        <div className="custom-container main-block">
             <ProjectList />
             <Project />
             <PersonalInfo />

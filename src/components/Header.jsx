@@ -1,11 +1,17 @@
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButtonOutline from "./Header/DropdownButton";
+import { useTheme } from '../ThemeContext';
 import "../styles/Header.css";
 
 const Header = () => {
+  const { theme } = useTheme();
+
+    console.log(theme, 'THEME')
   return (
-    <header className="container">
+    <header className="custom-container">
         <div className="header-inner">
             <img className="logo-img" src="./img/TestLogo.svg" alt="" />
-            <div className="nav">
+            <div className="custom-nav">
 
                 <div className="nav-item">
                     <img className="nav-icon" src="./img/home.svg" alt=""/>
@@ -30,8 +36,7 @@ const Header = () => {
                 </div>
 
                 <div className="nav-item">
-                    <img className="nav-icon" src="./img/credit_card.svg" alt=""/>
-                    <span className="nav-menu-label">Transactions</span>
+                    <DropdownButtonOutline />
                 </div>
           </div>
 
