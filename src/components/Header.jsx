@@ -1,12 +1,15 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButtonOutline from "./Header/DropdownButton";
-import { useTheme } from '../ThemeContext';
+import { useTheme } from '../contexts/ThemeContext';
+import { useDashboardStore } from '../contexts/DashboardContext';
 import "../styles/Header.css";
 
 const Header = () => {
   const { theme } = useTheme();
+  const { dashboard } = useDashboardStore();
 
     console.log(theme, 'THEME')
+    console.log(dashboard, 'DASHBOARD')
   return (
     <header className="custom-container">
         <div className="header-inner">

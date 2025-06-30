@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import { useTheme } from '../../ThemeContext';
+import { useTheme } from '../../contexts/ThemeContext';
 
 function DropdownButtonOutline() {
     const { theme, changeTheme } = useTheme();
