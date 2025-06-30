@@ -5,13 +5,13 @@ import '../styles/Main.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Main = () => {
-  return (
+    return (
         <div className="custom-container main-block">
             <ProjectList />
             <Project />
             <PersonalInfo />
         </div>
-  );
+    );
 };
 
 export default Main;

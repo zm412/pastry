@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from "react";
 const DashboardContext = createContext();
 
 export const DashboardProvider = ({ children }) => {
-    const [dashboard, setDashboard] = useState("basic");
+    const [dashboard, setDashboard] = useState("proj2");
 
     const changeDashboard = (newDashboard) => {
         setDashboard(newDashboard);

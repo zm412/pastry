@@ -3,7 +3,7 @@ import { useDashboardStore } from '../../contexts/DashboardContext';
 
 const project_list_data = [
     {
-        name: "Project1",
+        name: "Drag and Drop",
         id: 'proj1',
     },
     {
@@ -33,7 +33,15 @@ const ProjectList = () => {
             onClick={(e) => changeDashboard(e.currentTarget.dataset.id)}
         >
             <div className="project-info">
+                <div className="project-name"></div>
+            </div>
+
+            <div className="project-info">
                 <div className="project-name">{project.name}</div>
+            </div>
+
+            <div className="project-info">
+                <div className="project-name"></div>
             </div>
         </li>
     )
